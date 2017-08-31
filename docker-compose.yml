@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  aspdotnetcorewebapp1:
+    image: aspdotnetcorewebapp1
+    build:
+      context: ./AspDotNetCoreWebApp1
+      dockerfile: Dockerfile
